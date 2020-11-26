@@ -8,11 +8,10 @@ def get_answer():
     number2 = int(input("请输入第二个整数"))
     number3 = int(input("请输入第三个整数"))
 
-    total_list = [number1,number2,number3]
+    total_list = [number1, number2, number3]
     total_list.sort()
 
     print(total_list)
 
 
 get_answer()
-
